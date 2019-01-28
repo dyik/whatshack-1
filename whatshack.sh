@@ -3,14 +3,14 @@ clear
 echo "
 <-- IndoSec -->
 ####################
-#   Whatsapp Code  # By ./DAVID
-#     Exploiter    # mhanifmarribaloch@gmail.com
+#   whatsapp Code  # By ./DAVID 
+#     Exploiter    # Hanif-Marri King of Hackes
 ####################
 
 Copyright (c) 2018 ceweberbatang Ganteng";
 echo "";
-read -p "Nomer Kamu (+62xxxx)=> " nomer;
-read -p "Nomer Target (+62xxxx) => " target;
+read -p "Enter your own number (+62xxxx)=> " num;
+read -p "Enter Target Number (+62xxxx) => " target;
 sleep 2
 echo "[+] Syncing Target...";
 sleep 1
