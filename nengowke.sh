@@ -28,4 +28,4 @@ sleep 3;
 curl -XPOST https://www.twilio.com/console/phone-numbers/PN531fc3a1b14ae13bb87c9a9947a2d294/messages";
 sleep $delay
 POST https://www.twilio.com/console/phone-numbers/PN531fc3a1b14ae13bb87c9a9947a2d294/messages";
-done
+done;
