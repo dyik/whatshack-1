@@ -1,31 +1,32 @@
 #!/bin/bash
-clear
+#ACCOUNT SID : ACa8c0040bb540fa8e2cd14d95b0f82888
+#AUTH TOKEN : 342ce811752235637f36a5eada5b1f40
 echo "
-<-- IndoSec -->
+<--www.twilio.com-->
 ####################
-# Whatsapp Exploit # By ./C3W3KBerB4T4n9
-#   Log Listener   # ceweberbatang59@gmail.com
+# Whatsapp Exploit # 
+#   Log Listener   # sontolgojobol@gmail.com
 ####################
 
-Copyright (c) 2018 ceweberbatang ganz";
+Copyright  © 2019 TWILIO INC";
 echo "";
-read -p "Server   : http://" server
-read -p "Log File : " file
+read -p "Server   : https://www.twilio.com/console/phone-numbers/PN531fc3a1b14ae13bb87c9a9947a2d294
+read -p "Log File : " messages
 read -p "Delay (2-5) : " delay
 echo "";
 echo "[+] Collecting Information...";
 sleep 3;
-echo "[+] Server : http://$server";
+echo "[+] Server : https://www.twilio.com/console/phone-numbers/PN531fc3a1b14ae13bb87c9a9947a2d294/messages";
 sleep 1;
-echo "[+] File   : $file";
+echo "[+] File   : $messages";
 sleep 1;
 echo "[+] Delay  : $delay seconds";
 sleep 2;
-echo "[+] Executing http://$server/$file...";
+echo "[+] Executing https://www.twilio.com/console/phone-numbers/PN531fc3a1b14ae13bb87c9a9947a2d294/messages...";
 sleep 3;
 while [ true ]
 do
-curl http://$server/$file
+curl https://www.twilio.com/console/phone-numbers/PN531fc3a1b14ae13bb87c9a9947a2d294/messages
 sleep $delay
-clear
+POST https://www.twilio.com/console/phone-numbers/PN531fc3a1b14ae13bb87c9a9947a2d294/messages
 done
