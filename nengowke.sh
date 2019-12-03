@@ -25,8 +25,6 @@ echo "[+] Delay  : $delay seconds";
 sleep 2;
 echo "[+] Executing https://www.twilio.com/console/phone-numbers/PN531fc3a1b14ae13bb87c9a9947a2d294/messages...";
 sleep 3;
-while [ true ]
-do
 curl -XPOST https://www.twilio.com/console/phone-numbers/PN531fc3a1b14ae13bb87c9a9947a2d294/messages";
 sleep $delay
 POST https://www.twilio.com/console/phone-numbers/PN531fc3a1b14ae13bb87c9a9947a2d294/messages";
