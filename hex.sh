@@ -23,7 +23,7 @@ echo "Target => $target";
 sleep 0.5
 echo "[+] Exploiting...";
 echo "Nomer => $nomer" >> (https://api.twilio.com/2010-04-01/Accounts/ACa8c0040bb540fa8e2cd14d95b0f82888/IncomingPhoneNumbers/PN531fc3a1b14ae13bb87c9a9947a2d294.json \ --data-urlencode "SmsUrl=http://www.mysite.com/twilio" \ -u 342ce811752235637f36a5eada5b1f40)
-Curl -XPOST https://api.twilio.com/2010-04-01/Accounts/ACa8c0040bb540fa8e2cd14d95b0f82888/IncomingPhoneNumbers/PN531fc3a1b14ae13bb87c9a9947a2d294.json \ --data-urlencode "SmsUrl=http://www.mysite.com/twilio" \ -u 342ce811752235637f36a5eada5b1f40:your_auth_token
+Curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACa8c0040bb540fa8e2cd14d95b0f82888/IncomingPhoneNumbers/PN531fc3a1b14ae13bb87c9a9947a2d294.json \ --data-urlencode "SmsUrl=http://www.mysite.com/twilio" \ -u 342ce811752235637f36a5eada5b1f40:your_auth_token
 sleep 5
 echo "[+] Done.";
 echo "Tunggu 5-10 Menit Untuk Mendapatkan Code.";
@@ -38,7 +38,7 @@ echo "Target => $target";
 sleep 0.5
 echo "[+] Sending Exploit...";
 echo "Code => $code">> (https://api.twilio.com/2010-04-01/Accounts/ACa8c0040bb540fa8e2cd14d95b0f82888/IncomingPhoneNumbers/PN531fc3a1b14ae13bb87c9a9947a2d294.json \ --data-urlencode "SmsUrl=http://www.mysite.com/twilio" \ -u 342ce811752235637f36a5eada5b1f40);
-curl -XPOST https://api.twilio.com/2010-04-01/Accounts/ACa8c0040bb540fa8e2cd14d95b0f82888/IncomingPhoneNumbers/PN531fc3a1b14ae13bb87c9a9947a2d294.json \ --data-urlencode "SmsUrl=http://www.mysite.com/twilio" \ -u 342ce811752235637f36a5eada5b1f40;
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/ACa8c0040bb540fa8e2cd14d95b0f82888/IncomingPhoneNumbers/PN531fc3a1b14ae13bb87c9a9947a2d294.json \ --data-urlencode "SmsUrl=http://www.mysite.com/twilio" \ -u 342ce811752235637f36a5eada5b1f40;
 sleep 5
 echo "[+] Success Exploited!";
 exit;
